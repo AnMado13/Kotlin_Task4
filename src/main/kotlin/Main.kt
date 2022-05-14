@@ -1,10 +1,8 @@
-import java.io.FileReader
 import java.math.BigInteger
 
-fun main(args: Array<String>){
+fun main(arg: String){
 
-    val fileReader = FileReader("./input/Input.doc")
-    val number = (fileReader.readLines()[0]).toInt()
+    val number = arg.toInt()
     var factorial = BigInteger("1")
 
     for (multiplier in 2..number){
