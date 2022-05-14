@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9105bec-17fe-4638-b421-0f092eea61af" name="Changes" comment="All tests are ready">
+    <list default="true" id="c9105bec-17fe-4638-b421-0f092eea61af" name="Changes" comment="Added some files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/MainTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MainTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652548530610</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added some files">
+      <created>1652548580025</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652548580025</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed the input type&#10;Added a test class" />
     <MESSAGE value="All tests are ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="All tests are ready" />
+    <MESSAGE value="Added some files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some files" />
   </component>
 </project>
