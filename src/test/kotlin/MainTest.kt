@@ -44,7 +44,7 @@ class MainTest {
 
     @Test
     fun testFactorialOfZero() {
-        main(0)
+        main("0")
         val actual = bytesOutput.toString(Charsets.UTF_8).toInt()
 
         assertEquals("Factorial of zero is wrong", 1, actual)
@@ -52,23 +52,31 @@ class MainTest {
 
     @Test
     fun testFactorialOfOne(){
-        main(1)
+        main("1")
         val actual = bytesOutput.toString(Charsets.UTF_8).toInt()
 
         assertEquals("Factorial of one is wrong", 1, actual)
     }
 
     @Test
-    fun testNotBigFactorial(){
-        main(6)
+    fun testNotBigEvenFactorial(){
+        main("6")
         val actual = bytesOutput.toString(Charsets.UTF_8).toInt()
 
-        assertEquals("Factorial of small number is wrong", 720, actual)
+        assertEquals("Factorial of small even number is wrong", 720, actual)
+    }
+
+    @Test
+    fun testNotBigOddFactorial(){
+        main("5")
+        val actual = bytesOutput.toString(Charsets.UTF_8).toInt()
+
+        assertEquals("Factorial of small odd number is wrong", 120, actual)
     }
 
     @Test
     fun testBigFactorial(){
-        main(100)
+        main("100")
         val actual = BigInteger(bytesOutput.toString(Charsets.UTF_8))
 
 
