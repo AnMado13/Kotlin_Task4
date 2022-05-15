@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9105bec-17fe-4638-b421-0f092eea61af" name="Changes" comment="Added some files">
+    <list default="true" id="c9105bec-17fe-4638-b421-0f092eea61af" name="Changes" comment="Some sugar stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/MainTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MainTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,7 @@
       <list>
         <option value="Kotlin File" />
         <option value="JUnit4 Test Class" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -56,6 +58,7 @@
       <module name="Kotlin_Task4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,13 +74,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="Kotlin_Task4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.MainTest" />
+      <item itemvalue="JUnit.MainTest.testZeroFactorial" />
+      <item itemvalue="Kotlin.MainKt" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainTest" />
@@ -116,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652548580025</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed readme">
+      <created>1652549872785</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652549872785</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Some sugar stuff">
+      <created>1652567287187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652567287187</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +156,8 @@
     <MESSAGE value="Changed the input type&#10;Added a test class" />
     <MESSAGE value="All tests are ready" />
     <MESSAGE value="Added some files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some files" />
+    <MESSAGE value="Completed readme" />
+    <MESSAGE value="Some sugar stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some sugar stuff" />
   </component>
 </project>

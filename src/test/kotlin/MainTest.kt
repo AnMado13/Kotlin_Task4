@@ -44,32 +44,32 @@ class MainTest {
 
     @Test
     fun testFactorialOfZero() {
-        main("0")
-        val actual = bytesOutput.toString(Charsets.UTF_8).trim().toInt()
+        main(0)
+        val actual = bytesOutput.toString(Charsets.UTF_8).toInt()
 
         assertEquals("Factorial of zero is wrong", 1, actual)
     }
 
     @Test
     fun testFactorialOfOne(){
-        main("1")
-        val actual = bytesOutput.toString(Charsets.UTF_8).trim().toInt()
+        main(1)
+        val actual = bytesOutput.toString(Charsets.UTF_8).toInt()
 
         assertEquals("Factorial of one is wrong", 1, actual)
     }
 
     @Test
     fun testNotBigFactorial(){
-        main("6")
-        val actual = bytesOutput.toString(Charsets.UTF_8).trim().toInt()
+        main(6)
+        val actual = bytesOutput.toString(Charsets.UTF_8).toInt()
 
         assertEquals("Factorial of small number is wrong", 720, actual)
     }
 
     @Test
     fun testBigFactorial(){
-        main("100")
-        val actual = BigInteger(bytesOutput.toString(Charsets.UTF_8).trim())
+        main(100)
+        val actual = BigInteger(bytesOutput.toString(Charsets.UTF_8))
 
 
         val fileReader = FileReader("./src/test/answer/answer.txt")
